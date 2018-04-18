@@ -1,0 +1,1465 @@
+============================================
+vis/amang-submit.txt
+11:45:14_Friday_19_August_2016
+============================================
+============================================
+=== Compiling with gcc -Wall -std=c99 -o eq *.c -lm
+============================================
+============================================
+=== Compilation finished
+=== Submission testing begins
+=== eq eq_small.csv 1000 5
+============================================
+=== Output:
+TASK 1:0.04 seconds
+TASK 2:0.49 seconds
+TASK 3:0.16 seconds
+============================================
+=== ./task_1.csv
+timestamp,latitide,longitude,magnitude
+2009-04-28T23:14:47.780Z,-7.148,129.396,4.0
+2009-05-06T07:17:21.810Z,27.097,129.962,4.6
+============================================
+=== ./task_2.csv
+timestamp,latitide,longitude,magnitude,score
+1997-04-21T12:02:26.430Z,-12.584,166.676,7.7,354965651456.00
+1997-12-05T11:26:54.690Z,54.841,162.035,7.8,501187969024.00
+2004-12-23T14:59:04.410Z,-49.312,161.345,8.1,1412540661760.00
+2012-04-11T10:43:10.850Z,0.802,92.463,8.2,1995262656512.00
+2005-03-28T16:09:36.530Z,2.085,97.108,8.6,7943299792896.00
+============================================
+=== ./task_3.csv
+year,magnitude,count,percentage
+1985,3,76,25.2
+1985,4,157,77.4
+1985,5,61,97.7
+1985,6,5,99.3
+1985,7,2,100.0
+1985,8,0,100.0
+1985,9,0,100.0
+1986,3,92,26.8
+1986,4,164,74.6
+1986,5,80,98.0
+1986,6,7,100.0
+1986,7,0,100.0
+1986,8,0,100.0
+1986,9,0,100.0
+1987,3,61,22.7
+1987,4,157,81.0
+1987,5,45,97.8
+1987,6,6,100.0
+1987,7,0,100.0
+1987,8,0,100.0
+1987,9,0,100.0
+1988,3,82,27.8
+1988,4,156,80.7
+1988,5,53,98.6
+1988,6,4,100.0
+1988,7,0,100.0
+1988,8,0,100.0
+1988,9,0,100.0
+1989,3,97,31.4
+1989,4,152,80.6
+1989,5,53,97.7
+1989,6,7,100.0
+1989,7,0,100.0
+1989,8,0,100.0
+1989,9,0,100.0
+1990,3,100,30.1
+1990,4,171,81.6
+1990,5,51,97.0
+1990,6,9,99.7
+1990,7,1,100.0
+1990,8,0,100.0
+1990,9,0,100.0
+1991,3,92,29.9
+1991,4,148,77.9
+1991,5,65,99.0
+1991,6,3,100.0
+1991,7,0,100.0
+1991,8,0,100.0
+1991,9,0,100.0
+1992,3,202,46.2
+1992,4,178,87.0
+1992,5,53,99.1
+1992,6,3,99.8
+1992,7,1,100.0
+1992,8,0,100.0
+1992,9,0,100.0
+1993,3,170,42.2
+1993,4,171,84.6
+1993,5,56,98.5
+1993,6,6,100.0
+1993,7,0,100.0
+1993,8,0,100.0
+1993,9,0,100.0
+1994,3,178,45.3
+1994,4,164,87.0
+1994,5,47,99.0
+1994,6,4,100.0
+1994,7,0,100.0
+1994,8,0,100.0
+1994,9,0,100.0
+1995,3,192,35.7
+1995,4,288,89.2
+1995,5,46,97.8
+1995,6,8,99.3
+1995,7,4,100.0
+1995,8,0,100.0
+1995,9,0,100.0
+1996,3,193,34.9
+1996,4,307,90.4
+1996,5,49,99.3
+1996,6,4,100.0
+1996,7,0,100.0
+1996,8,0,100.0
+1996,9,0,100.0
+1997,3,156,33.0
+1997,4,269,89.9
+1997,5,41,98.5
+1997,6,4,99.4
+1997,7,3,100.0
+1997,8,0,100.0
+1997,9,0,100.0
+1998,3,220,40.8
+1998,4,285,93.7
+1998,5,30,99.3
+1998,6,4,100.0
+1998,7,0,100.0
+1998,8,0,100.0
+1998,9,0,100.0
+1999,3,222,43.4
+1999,4,247,91.8
+1999,5,40,99.6
+1999,6,2,100.0
+1999,7,0,100.0
+1999,8,0,100.0
+1999,9,0,100.0
+2000,3,175,35.8
+2000,4,272,91.4
+2000,5,37,99.0
+2000,6,5,100.0
+2000,7,0,100.0
+2000,8,0,100.0
+2000,9,0,100.0
+2001,3,233,42.8
+2001,4,261,90.8
+2001,5,46,99.3
+2001,6,4,100.0
+2001,7,0,100.0
+2001,8,0,100.0
+2001,9,0,100.0
+2002,3,228,39.9
+2002,4,302,92.7
+2002,5,34,98.6
+2002,6,8,100.0
+2002,7,0,100.0
+2002,8,0,100.0
+2002,9,0,100.0
+2003,3,297,45.6
+2003,4,306,92.6
+2003,5,36,98.2
+2003,6,11,99.8
+2003,7,1,100.0
+2003,8,0,100.0
+2003,9,0,100.0
+2004,3,274,37.3
+2004,4,408,92.9
+2004,5,48,99.5
+2004,6,3,99.9
+2004,7,0,99.9
+2004,8,1,100.0
+2004,9,0,100.0
+2005,3,337,35.8
+2005,4,538,93.0
+2005,5,65,99.9
+2005,6,0,99.9
+2005,7,0,99.9
+2005,8,1,100.0
+2005,9,0,100.0
+2006,3,370,41.0
+2006,4,465,92.6
+2006,5,60,99.2
+2006,6,7,100.0
+2006,7,0,100.0
+2006,8,0,100.0
+2006,9,0,100.0
+2007,3,403,43.0
+2007,4,458,91.9
+2007,5,66,98.9
+2007,6,10,100.0
+2007,7,0,100.0
+2007,8,0,100.0
+2007,9,0,100.0
+2008,3,448,45.5
+2008,4,465,92.7
+2008,5,66,99.4
+2008,6,5,99.9
+2008,7,1,100.0
+2008,8,0,100.0
+2008,9,0,100.0
+2009,3,107,25.3
+2009,4,236,81.1
+2009,5,72,98.1
+2009,6,8,100.0
+2009,7,0,100.0
+2009,8,0,100.0
+2009,9,0,100.0
+2010,3,157,25.7
+2010,4,385,88.6
+2010,5,65,99.2
+2010,6,5,100.0
+2010,7,0,100.0
+2010,8,0,100.0
+2010,9,0,100.0
+2011,3,119,16.4
+2011,4,506,86.1
+2011,5,94,99.0
+2011,6,6,99.9
+2011,7,1,100.0
+2011,8,0,100.0
+2011,9,0,100.0
+2012,3,103,18.6
+2012,4,396,90.2
+2012,5,46,98.6
+2012,6,6,99.6
+2012,7,1,99.8
+2012,8,1,100.0
+2012,9,0,100.0
+2013,3,92,16.9
+2013,4,401,90.6
+2013,5,49,99.6
+2013,6,2,100.0
+2013,7,0,100.0
+2013,8,0,100.0
+2013,9,0,100.0
+2014,3,156,18.8
+2014,4,609,92.2
+2014,5,58,99.2
+2014,6,6,99.9
+2014,7,1,100.0
+2014,8,0,100.0
+2014,9,0,100.0
+2015,3,177,25.0
+2015,4,481,93.1
+2015,5,47,99.7
+2015,6,2,100.0
+2015,7,0,100.0
+2015,8,0,100.0
+2015,9,0,100.0
+============================================
+=== Submission testing ended
+============================================
+============================================
+src/main.c
+11:45:13_Friday_19_August_2016
+============================================
+/***************************************************************************
+*
+*   File        : main.c
+*   Student Id  : 565604
+*   Name        : Mink Yii Ang
+*
+***************************************************************************/
+
+#include "linkedlist.h"
+#include "tasks.h"
+#include "eq_util.h"
+
+#include <time.h>
+#include <math.h>
+#include <string.h>
+
+
+#include <sys/time.h>
+#include <stdio.h>
+#include <unistd.h>
+
+
+
+int main(int argc, char** argv)
+{
+	
+	/* TODO: parse command line arguments */
+	char* eq_csv_file = NULL;
+	int resolution = 0;
+	int K = 0;
+	double elapsed_ms = 0.0;
+	struct timeval start;
+	struct timeval stop;
+	
+	if (argc != 4) {
+		debug("More inputs required.");
+		exit(EXIT_FAILURE);
+	}else{
+		eq_csv_file = (char *)malloc(256*sizeof(char));
+		strcpy(eq_csv_file,argv[1]);
+		resolution = atoi(argv[2]);
+		K = atoi(argv[3]);
+		if (K > resolution) {
+			K = resolution;
+		}
+	}
+	
+	/* TODO: timing for Task 1 */
+        gettimeofday(&start, NULL);
+        task_1_find_longest_break_after_2k(eq_csv_file);
+        gettimeofday(&stop, NULL);
+        elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+        elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+        printf("TASK 1:%.2f seconds\n", elapsed_ms/1000);
+        
+        /* TODO: timing for Task 2 */
+        gettimeofday(&start, NULL);
+        task_2_compute_cell_scores(eq_csv_file, resolution, K);
+        gettimeofday(&stop, NULL);
+        elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+        elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+        printf("TASK 2:%.2f seconds\n", elapsed_ms/1000);
+        
+        /* TODO: timing for Task 3 */
+        gettimeofday(&start, NULL);
+        task_3_magnitude_statistics(eq_csv_file);    
+        gettimeofday(&stop, NULL);
+        elapsed_ms = (stop.tv_sec - start.tv_sec) * 1000.0;
+        elapsed_ms += (stop.tv_usec - start.tv_usec) / 1000.0;
+        printf("TASK 3:%.2f seconds\n", elapsed_ms/1000);
+        return (EXIT_SUCCESS);
+}
+============================================
+src/linkedlist.c
+11:45:13_Friday_19_August_2016
+============================================
+#include <assert.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+#include "linkedlist.h"
+#include "eq_util.h"
+#include "skiplist.h"
+
+/* process all elements in the list */
+void list_process_all(node_t* p, void (*process)(void*))
+{
+    while (p) {
+        process(p->data);
+        p = p->next;
+    }
+}
+
+void print_list(void *d) {
+	float scr = ((head_t *)d)->score;
+	printf("Score is %.2f\n",scr);
+}
+
+/* remove node at the front of the list */
+void* list_pop_front(list_t* list)
+{
+    assert(list != NULL);
+    assert(list->num_elements > 0);
+    node_t* old;
+    assert(list->head != NULL);
+    old = list->head;
+    list->head = list->head->next;
+    void* d = old->data;
+    free(old);
+    list->num_elements--;
+    if (list->num_elements == 0) {
+        list->head = NULL;
+        list->tail = NULL;
+    }
+    return d;
+}
+
+/* add node add the front of the list */
+void list_push_front(list_t* list, void* d)
+{
+    assert(list != NULL);
+    node_t* new = (node_t*)safe_malloc(sizeof(node_t));
+    assert(new);
+    new->data = d;
+    new->next = list->head;
+    list->head = new;
+    if (list->tail == NULL)
+        list->tail = new;
+    list->num_elements++;
+}
+
+/* add node add the back of the list */
+void list_push_back(list_t* list, void* d)
+{
+    assert(list != NULL);
+    node_t* new = (node_t*)safe_malloc(sizeof(node_t));
+    assert(new != NULL);
+    new->data = d;
+    new->next = NULL;
+	if (list->tail)
+		list->tail->next = new;
+    list->tail = new;
+    if (list->head == NULL)
+        list->head = new;
+    list->num_elements++;
+}
+
+void list_insert_after(list_t* list, node_t* n, void* d)
+{
+    assert(list != NULL);
+    if (n == list->tail) {
+        list_push_back(list, d);
+    }
+    else {
+        node_t* new = (node_t*)safe_malloc(sizeof(node_t));
+        assert(new != NULL);
+        new->data = d;
+        new->next = n->next;
+        n->next = new;
+        list->num_elements++;
+    }
+}
+
+void list_insert_in_order(list_t* list, void* d, int cmp(const void*, const void*))
+{
+	node_t *temp = list->head;
+	node_t *next_temp = temp->next;
+	head_t *eq_data = d;
+	//change this for eq_t*
+
+	if (next_temp == NULL) {
+		if (cmp(eq_data, temp->data)) {
+			list_push_front(list,eq_data);
+		}else{
+			list_push_back(list, eq_data);
+		}
+	}
+	else {
+		while (temp->next != NULL) {
+			//Always test the head in the list first
+			if (cmp(eq_data, list->head->data) == 1) {
+				list_push_front(list, eq_data);
+				break;
+			}
+			if (cmp(eq_data, temp->next->data)==1) {
+				list_insert_after(list, temp, d);
+				break;
+			}else if(cmp(eq_data,temp->next->data)==0){
+				list_insert_after(list, temp->next, d);
+				break;
+			}
+			temp = temp->next;
+		}
+		if (temp->next == NULL) {
+			list_push_back(list, d);
+		}
+	}
+}
+
+int magnitude_cmp(const void *eq_1, const void *eq_2) {
+	float mag1 = ((eq_t*)eq_1)->magnitude;
+	float mag2 = ((eq_t*)eq_2)->magnitude;
+	if (mag1 > mag2) {
+		return 1;
+	}else if(mag1 < mag2){
+		return -1;
+	}
+	else {
+		return 0;
+	}
+}
+
+int score_cmp(const void *score1, const void *score2) {
+	float sc1 = ((head_t*)score1)->score;
+	float sc2 = ((head_t*)score2)->score;
+	if (sc1 < sc2) {
+		return 1;
+	}
+	else if (sc1 > sc2) {
+		return -1;
+	}
+	else {
+		return 0;
+	}
+}
+
+/* create a new linked list structure */
+list_t* list_new(void (*delfunc)(void*))
+{
+    list_t* list;
+    list = (list_t*)safe_malloc(sizeof(list_t));
+    assert(list != NULL);
+    list->head = NULL;
+    list->tail = NULL;
+    list->num_elements = 0;
+    list->del = delfunc;
+    return list;
+}
+
+/* free all memory associated with a list */
+void list_free(list_t* list)
+{
+    assert(list != NULL);
+    while (list->num_elements) {
+        void* elem = list_pop_front(list);
+        list->del(elem);
+    }
+    free(list);
+}
+
+node_t* new_node(void *d) {
+	node_t *new = (node_t*)safe_malloc(sizeof(node_t));
+	assert(new != NULL);
+	new->data = d;
+	new->next = NULL;
+	return new;
+}
+
+void list_delete(void *item) {
+	free(item);
+	item = NULL;
+	if (item != NULL) {
+		exit(EXIT_FAILURE);
+	}
+}
+
+void filter_quake(list_t *list, void *eq) {
+	int year_eq = ((eq_t*)eq)->timestamp->year;
+	int mag_eq = ((int)((((eq_t*)(eq))->magnitude) + 0.5));
+
+	if (list->num_elements == 0) {
+		stat_t *new_stat = new_stat_node(year_eq);
+		insert_magnitude(new_stat, mag_eq);
+		list_push_front(list,new_stat);
+	}else{
+		traverse_list_n_match(list, eq);
+	}
+}
+
+void traverse_list_n_match(list_t *list, void *eq) {
+	node_t *temp = list->head;
+	float temp_mag = 0.0;
+	
+	while (temp != NULL && ((eq_t*)eq)->timestamp->year != ((stat_t*)(temp->data))->year) {
+		temp = temp->next;
+	}
+	temp_mag = ((eq_t*)eq)->magnitude;
+
+
+	if (temp != NULL) {
+		insert_magnitude(temp->data,temp_mag);
+	}
+	else {
+		stat_t *st_node = new_stat_node(((eq_t*)eq)->timestamp->year);
+		insert_magnitude(st_node,temp_mag);
+		list_push_back(list, st_node);
+	}
+}============================================
+src/skiplist.c
+11:45:13_Friday_19_August_2016
+============================================
+#include "stdio.h"
+#include "stdio.h"
+#include "stdlib.h"
+#include "time.h"
+#include "string.h"
+#include "skiplist.h"
+#include "eq_util.h"
+#include "linkedlist.h"
+
+float randf() {
+	return (float)rand() / RAND_MAX;  
+}
+
+void seed_rand() {
+	srand((unsigned)time(NULL));
+}
+
+int random_level() {
+
+	int lvl = 0;
+	while (randf() < P && lvl < MAX_LEVEL)
+	{
+		lvl++;
+	}
+	return lvl;     
+}
+
+head_t* new_head() {
+	head_t *head = (head_t*)safe_malloc(sizeof(head_t));
+	assert(head != NULL);
+	//error here since 0 isnt type snode_t
+	head->header = new_snode(MAX_LEVEL, empty_eq());
+	head->level = 0;
+	head->num_of_elements = 0;
+	head->score = 0;
+
+	for (int i = 0; i <= MAX_LEVEL; i++) {
+		head->header->next[i] = NULL;
+	}
+
+	return head;
+}
+
+snode_t* new_snode(int level, void *d) {
+	snode_t *newnode;
+	newnode = (snode_t*)safe_malloc(sizeof(snode_t));
+	newnode->next = (snode_t**)safe_malloc((level+1)*sizeof(snode_t));
+	newnode->data = d;
+	return newnode;
+}
+
+void insert(head_t *head, void *d) {
+	int lvl = 0;
+	snode_t *temp = head->header;
+	snode_t *update[MAX_LEVEL + 1];
+	float mag = ((eq_t*)d)->magnitude;
+	memset(update, 0, MAX_LEVEL + 1);
+
+	for (int i = head->level; i >= 0; i--) {
+		while (temp->next[i] != NULL && ((eq_t*)(temp->next[i]->data))->magnitude > mag) {
+			temp = temp->next[i];
+		}
+		update[i] = temp;
+	}
+
+	lvl = random_level();
+	if (lvl > head->level) {
+		for (int j = (head->level + 1); j <= lvl; j++) {
+			update[j] = head->header;
+		}
+		head->level = lvl;
+	}
+
+	//debug("Creating new node");
+	temp = new_snode(lvl, d);
+	for (int k = 0; k <= lvl; k++) {
+		//debug("Swapping nodes");
+		temp->next[k] = update[k]->next[k];
+		update[k]->next[k] = temp;
+	}
+	//debug("Swapping complete");
+	head->num_of_elements++;
+}
+
+void printList(head_t *head) {
+	snode_t *temp = head->header;
+	while (temp != NULL) {
+		printf("%.2f --> ", ((eq_t*)(temp->data))->magnitude);
+		temp = temp->next[0];
+	}
+	debug("null\n");
+}
+
+void compute_scores(head_t ***map, list_t *list, int resolution, int K) {
+	long double sum = 0.0;
+	snode_t *tmp = NULL;
+	float score_mag = 0;
+	int count = 0;
+
+	for (int i = 0; i < resolution; i++) {
+		for (int j = 0; j < resolution; j++) {
+			if (map[i][j]->num_of_elements > 0) {
+				if (map[i][j]->num_of_elements > K) {
+					tmp = map[i][j]->header->next[0];
+					while (tmp != NULL && count < ((K+1) / 2)) {
+						score_mag = ((eq_t*)(tmp->data))->magnitude;
+						sum = sum + powf(31.62278, score_mag);
+						tmp = tmp->next[0];
+						count++;
+					}
+				}
+				else {
+					tmp = map[i][j]->header->next[0];
+					while (tmp != NULL && count < (((map[i][j]->num_of_elements)+1) / 2)) {
+						score_mag = ((eq_t*)(tmp->data))->magnitude;
+						sum = sum + powf(31.62278, score_mag);
+						tmp = tmp->next[0];
+						count++;
+					}
+				}
+			}
+			map[i][j]->score = sum;
+			if (map[i][j]->score != 0.0) {
+				array_insert(list, map[i][j], K);
+			}
+			//printf("Score is %.2lf\n", map[i][j]->score);
+			sum = 0;
+			count = 0;
+		}
+	}
+}
+
+void remove_skiplist(head_t *slist) {
+	snode_t *temp;
+	snode_t *curr;
+
+	temp = slist->header;
+	while (temp != NULL) {
+		curr = temp;
+		//remove all level here
+		temp = temp->next[0];
+		free(curr);
+	}
+	slist = NULL;
+}
+
+void array_insert(list_t *list, head_t *item, int K) {
+	//node_t *temp = list->head;
+
+	if (list->num_elements == 0) {
+		list_push_front(list,item);
+	}else if (list->num_elements < K) {
+		list_insert_in_order(list,item,score_cmp);
+	}
+	else {
+		list_insert_in_order(list, item, score_cmp);
+		list_pop_front(list);
+
+		if (list->num_elements != K) {
+			exit(EXIT_FAILURE);
+		}
+	}
+}
+
+void invert(head_t **k_array, list_t* list, int K) {
+	node_t* temp = list->head;
+
+	for (int i = (K-1); i >= 0; i--) {
+		k_array[i] = temp->data;
+		temp = temp->next;
+	}
+}
+
+void slist_free(head_t*** map, int resolution){
+
+	for (int i = 0; i < resolution; i++) {
+		for (int j = 0; j < resolution; j++) {
+			remove_skiplist(map[i][j]);
+		}
+		free(map[i]);
+	}
+	free(map);
+}
+
+void score_print(FILE *fp, head_t *k_input) {
+	eq_t *q = (eq_t*)(k_input->header->next[0]->data);
+	float scr = k_input->score;
+
+	fprintf(fp, "%d-%02d-%02dT%02d:%02d:%02d.%03dZ,%.3f,%.3f,%.1f,%.2lf\n",
+		q->timestamp->year,
+		q->timestamp->month,
+		q->timestamp->day,
+		q->timestamp->hour,
+		q->timestamp->min,
+		q->timestamp->sec,
+		q->timestamp->msec,
+		q->latitude,
+		q->longitude,
+		q->magnitude,
+		scr);
+}============================================
+src/eq_util.c
+11:45:13_Friday_19_August_2016
+============================================
+/***************************************************************************
+ *
+ *   File        : eq_util.c
+ *   Student Id  : <INSERT STUDENT ID HERE>
+ *   Name        : <INSERT STUDENT NAME HERE>
+ *
+ ***************************************************************************/
+
+#include "eq_util.h"
+#include "skiplist.h"
+#include "linkedlist.h"
+
+#define PI 3.141593
+#define ZOOM 0
+#define MIN(a, b) (((a) < (b)) ? (a) : (b))
+#define MAX(a, b) (((a) > (b)) ? (a) : (b))
+#define MONTHSPERYEAR 12 /* months per calendar year */
+
+ /* print a timestamp */
+void time_print(FILE* fp, timestamp_t* t)
+{
+	fprintf(fp, "%d-%02d-%02dT%02d:%02d:%02d.%03dZ\n",
+		t->year, t->month, t->day, t->hour, t->min, t->sec, t->msec);
+}
+
+/* needed for time comparison */
+long long my_timegm(struct tm* ptm)
+{
+	int m, y = ptm->tm_year;
+	if ((m = ptm->tm_mon) < 2) {
+		m += 12;
+		--y;
+	}
+	return ((((long long)(y - 69) * 365u + y / 4 - y / 100 * 3 / 4 + (m + 2) * 153 / 5 - 446 + ptm->tm_mday) * 24u + ptm->tm_hour) * 60u + ptm->tm_min) * 60u + ptm->tm_sec;
+}
+
+double time_difference(timestamp_t* a, timestamp_t* b)
+{
+	struct tm ta;
+	struct tm tb;
+	ta.tm_hour = a->hour;
+	ta.tm_min = a->min;
+	ta.tm_sec = a->sec;
+	ta.tm_mon = a->month - 1;
+	ta.tm_mday = a->day;
+	ta.tm_year = a->year - 1900;
+	ta.tm_isdst = 0;
+	tb.tm_hour = b->hour;
+	tb.tm_min = b->min;
+	tb.tm_sec = b->sec;
+	tb.tm_mon = b->month - 1;
+	tb.tm_mday = b->day;
+	tb.tm_year = b->year - 1900;
+	tb.tm_isdst = 0;
+	long long at = my_timegm(&ta);
+	long long bt = my_timegm(&tb);
+	double seconds = (double)(at - bt);
+	return seconds;
+}
+
+int compare(const void *a, const void *b) {
+	timestamp_t *aa = ((eq_t *)a)->timestamp;
+	timestamp_t *bb = ((eq_t *)b)->timestamp;
+
+	if (time_difference(aa, bb) > 0) {
+		return 1;
+	}
+	else if (time_difference(aa, bb) < 0) {
+		return -1;
+	}
+	else {
+		return 0;
+	}
+}
+
+/* translates lat,long to x,y. ensure all x,y are in [0,1] */
+void map_coordinates(eq_t* eq)
+{
+	float sinlat = sinf(eq->latitude * (PI / 180.0));
+	sinlat = MIN(MAX(sinlat, -0.9999), 0.99625);
+	float x = (0.5 + eq->longitude / 360);
+	float y = (0.5 - logf((1.0 + sinlat) / (1.0 - sinlat)) / (4.0 * PI));
+	y = y - 1;
+	y *= -1;
+	eq->x = MIN(x, 0.999);
+	eq->y = MIN(y, 0.999);
+}
+
+/* a wrapper function around malloc which checks return values and exits on error */
+void* safe_malloc(size_t bytes)
+{
+	//printf("safe_malloc() - IMPLEMENT ME!\n");
+	void *newly_assigned_mem = NULL;
+	newly_assigned_mem = (void *)malloc(bytes);
+	if (newly_assigned_mem == NULL) {
+		exit(EXIT_FAILURE);
+	}
+	else {
+		return newly_assigned_mem;
+	}
+	return NULL;
+}
+
+/* a wrapper function around realloc which checks return values and exits on error */
+void* safe_realloc(void* ptr, size_t bytes)
+{
+	void *new_array = NULL;
+	new_array = (void*)realloc(ptr, bytes);
+	if (new_array == NULL) {
+		exit(EXIT_FAILURE);
+	}
+	else {
+		return new_array;
+	}
+	return NULL;
+}
+
+/* function whcih parses the timestamp part of the input data */
+timestamp_t* parse_time(char* buf)
+{
+	int year, month, day, hour, min, sec, msec;
+	if (sscanf(buf, "%d-%d-%dT%d:%d:%d.%dZ", &year, &month, &day, &hour, &min, &sec, &msec) != 7) {
+		printf("error parsing timestamp.\n");
+		exit(EXIT_FAILURE);
+	}
+
+	timestamp_t* ts = (timestamp_t*)safe_malloc(sizeof(timestamp_t));
+	ts->year = year;
+	ts->month = month;
+	ts->day = day;
+	ts->hour = hour;
+	ts->min = min;
+	ts->sec = sec;
+	ts->msec = msec;
+	return ts;
+}
+
+/* a wrapper function around fopen which checks return values and exits on error */
+FILE* safe_open_file(const char* file_name, const char* mode)
+{
+	FILE* fp = fopen(file_name, mode);
+	if (fp == NULL) {
+		perror("file open error.");
+		exit(EXIT_FAILURE);
+	}
+	return fp;
+}
+
+/* a helper function which creates an eq_t object. returns NULL if everything has been read */
+eq_t* read_quake(FILE* fp)
+{
+	char buf[1024];
+	float latitude, longitude, magnitude;
+	if (fscanf(fp, "%[^,],%f,%f,%f\n", buf, &latitude, &longitude, &magnitude) == 4) {
+		eq_t* eq = (eq_t*)safe_malloc(sizeof(eq_t));
+		eq->timestamp = parse_time(buf);
+		eq->latitude = latitude;
+		eq->longitude = longitude;
+		eq->magnitude = magnitude;
+		map_coordinates(eq);
+		return eq;
+	}
+	return NULL;
+}
+
+stat_t *new_stat_node(int year) {
+	stat_t *stat = (stat_t*)safe_malloc(sizeof(stat_t));
+	stat->magnitude = (int*)safe_malloc(MAXLEVELOFMAG*sizeof(int));
+	//set all magnitude to zero
+	for (int i = 0; i < MAXLEVELOFMAG; i++) {
+		stat->magnitude[i] = 0;
+	}
+	stat->year = year;
+	stat->percentage = 0.0;
+	stat->total_eq_this_year = 0;
+	return stat;
+}
+
+void insert_magnitude(stat_t *stat_node, int mag) {
+	if (stat_node == NULL) {
+		debug("Statistic node is empty. Please initialise.");
+		exit(EXIT_FAILURE);
+	}
+	else {
+		if (mag < 1.0) {
+			stat_node->magnitude[0]++;
+		}
+		else if (mag < 2.0) {
+			stat_node->magnitude[1]++;
+		}
+		else if (mag < 3.0) {
+			stat_node->magnitude[2]++;
+		}
+		else if (mag < 4.0) {
+			stat_node->magnitude[3]++;
+		}
+		else if (mag < 5.0) {
+			stat_node->magnitude[4]++;
+		}
+		else if (mag < 6.0) {
+			stat_node->magnitude[5]++;
+		}
+		else if (mag < 7.0) {
+			stat_node->magnitude[6]++;
+		}
+		else if (mag < 8.0) {
+			stat_node->magnitude[7]++;
+		}
+		else if (mag < 9.0) {
+			stat_node->magnitude[8]++;
+		}
+		else {
+			stat_node->magnitude[9]++;
+		}
+		stat_node->total_eq_this_year++;
+	}
+}
+eq_t* empty_eq() {
+	eq_t* eq = (eq_t*)safe_malloc(sizeof(eq_t));
+	eq->timestamp = NULL;
+	eq->latitude = 0;
+	eq->longitude = 0;
+	eq->magnitude = 0;
+	map_coordinates(eq);
+	return eq;
+}
+/* helper function which frees all memory associated with an eq_t object */
+void eq_free(void* q)
+{
+	//printf("eq_free() - IMPLEMENT ME!\n");
+	//exit(EXIT_FAILURE);
+	//free(((eq_t*)q)->timestamp);
+	free(q);
+	q = NULL;
+	if (q != NULL) {
+		eq_free(q);
+	}
+}
+
+/* prints an eq_t object in the standard format required for the output files */
+void eq_print(FILE* fp, eq_t* q)
+{
+	fprintf(fp, "%d-%02d-%02dT%02d:%02d:%02d.%03dZ,%.3f,%.3f,%.1f\n",
+		q->timestamp->year,
+		q->timestamp->month,
+		q->timestamp->day,
+		q->timestamp->hour,
+		q->timestamp->min,
+		q->timestamp->sec,
+		q->timestamp->msec,
+		q->latitude,
+		q->longitude,
+		q->magnitude);
+}
+
+void print_timestamp(timestamp_t *timestp) {
+	printf("%d-%02d-%02dT%02d:%02d:%02d.%03dZ\n",
+		timestp->year,
+		timestp->month,
+		timestp->day,
+		timestp->hour,
+		timestp->min,
+		timestp->sec,
+		timestp->msec);
+}
+
+void consecutive_eq(eq_t *eq, int num_data, int *index) {
+	double longest_time = 0.0;
+	double computed_time = 0.0;
+	for (int i = 0; i < (num_data-1); i++) {
+		computed_time = time_difference((&eq[i])->timestamp, (&eq[i + 1])->timestamp);
+		if (abs(computed_time) > longest_time) {
+			longest_time = abs(computed_time);
+			*index = i;
+		}
+	}
+}
+
+void debug(char *message) {
+	printf("%s\n", message);
+}
+
+void scale_coordinates(eq_t *earthquake, int resolution) {
+	earthquake->x = (earthquake->x)*resolution;
+	earthquake->y = (earthquake->y)*resolution;
+}
+
+void stat_printf(FILE *fp, stat_t *s_eq) {
+	int count_eq = 0;
+	float percentage = 0.0;
+	float total_percentage = 0.0;
+	for (int i = 0; i < MAXLEVELOFMAG; i++) {
+		if (i < MAXLEVELOFMAG / 2) {
+			if (s_eq->magnitude[i] > 0) {
+				count_eq = s_eq->magnitude[i];
+				percentage = ((float)(count_eq) / (float)(s_eq->total_eq_this_year)) * 100;
+				total_percentage = total_percentage + percentage;
+				fprintf(fp, "%d,%d,%d,%2.1f\n", s_eq->year, i, s_eq->magnitude[i], total_percentage);
+			}
+		}else{
+			count_eq = s_eq->magnitude[i];
+			percentage = ((float)(count_eq) / (float)(s_eq->total_eq_this_year)) * 100;
+			total_percentage = total_percentage + percentage;
+			fprintf(fp, "%d,%d,%d,%2.1f\n", s_eq->year, i, s_eq->magnitude[i], total_percentage);
+		}
+	}
+}
+
+
+============================================
+src/tasks.c
+11:45:13_Friday_19_August_2016
+============================================
+/***************************************************************************
+ *
+ *   File        : tasks.c
+ *   Student Id  : <INSERT STUDENT ID HERE>
+ *   Name        : <INSERT STUDENT NAME HERE>
+ *
+ ***************************************************************************/
+
+#include "eq_util.h"
+#include "skiplist.h"
+#include "tasks.h"
+#include "linkedlist.h"
+#include "time.h"
+
+#define MAXINPUT 100000
+#define MAXYEART3 2015
+#define MINYEART3 1985
+#define MINYEART1 2000
+
+void task_1_find_longest_break_after_2k(const char* eq_csv_file)
+{
+	FILE *input_file = NULL;
+	eq_t *temp = NULL;
+	int count = 0;
+	eq_t *eq_array;
+	//eq_t *head = NULL;
+	int data_read = 0;
+	int mem_realloc_count = 1;
+	int index_of_longest_time = 0;
+
+	if (eq_csv_file == NULL) {
+		debug("Empty file");
+		exit(EXIT_FAILURE);
+	}
+	else {
+		eq_array = (eq_t*)safe_malloc(MAXINPUT*sizeof(eq_t));
+		input_file = safe_open_file(eq_csv_file, "r");
+
+		if (input_file != NULL) {
+			while (1){
+				temp = read_quake(input_file);
+				if (temp != NULL){
+					count += 1;
+					if (temp->timestamp->year >= MINYEART1) {
+						eq_array[data_read] = *temp;
+						data_read += 1;
+					}
+				}
+				else {
+					break;
+				}
+
+				if (data_read == mem_realloc_count*MAXINPUT) {
+					mem_realloc_count++;
+					eq_array = safe_realloc(eq_array, mem_realloc_count*MAXINPUT * sizeof(eq_t));
+				}
+			}
+			
+			qsort(&eq_array[0], data_read, sizeof(eq_t), compare);
+			consecutive_eq(eq_array, data_read, &index_of_longest_time);
+
+			FILE* fp = safe_open_file("task_1.csv","w");
+			fprintf(fp, "timestamp,latitide,longitude,magnitude\n");
+			eq_print(fp,&eq_array[index_of_longest_time]);
+			eq_print(fp,&eq_array[index_of_longest_time + 1]);
+			fclose(fp);	
+
+			eq_free(eq_array);
+		}
+	}
+}
+
+void task_2_compute_cell_scores(const char* eq_csv_file, int resolution, int K)
+{
+	//Skip list implementation - roughly 10 secs
+	FILE *input_file = NULL;
+	eq_t *temp = NULL;
+	int data_read = 0;
+	head_t ***map = NULL;
+	list_t *k_list;
+	int scaled_x = 0;
+	int scaled_y = 0;
+	head_t **k_array = NULL;
+
+	if (eq_csv_file == NULL) {
+		debug("File is empty");
+		exit(EXIT_FAILURE);
+	}
+	else {
+		input_file = safe_open_file(eq_csv_file, "r");
+		k_list = list_new(list_delete);
+		k_array = (head_t**)safe_malloc(K * sizeof(head_t*));
+		for (int k = 0; k < K; k++) {
+			k_array[k] = (head_t*)safe_malloc(sizeof(head_t));
+		}
+		map = (head_t***)safe_malloc(resolution * sizeof(head_t**));
+		for (int i = 0; i < resolution; i++) {
+			map[i] = (head_t**)safe_malloc(resolution * sizeof(head_t*));
+			for (int j = 0; j < resolution; j++) {
+				map[i][j] = new_head();
+			}
+		}
+
+		if (input_file == NULL) {
+			debug("Opened file is empty");
+			exit(EXIT_FAILURE);
+		}
+		else {
+			while (1) {
+				temp = read_quake(input_file);
+				if (temp != NULL) {
+					scale_coordinates(temp, resolution);
+					scaled_x = (int)((temp->x));
+					scaled_y = (int)((temp->y));
+					//printf("Scaled x and y is %d and %d\n",scaled_x,scaled_y);
+					insert(map[scaled_x][scaled_y],temp);
+					data_read += 1;
+				}
+				else {
+					break;
+				}
+			}
+		}
+	}
+
+	compute_scores(map, k_list, resolution, K);
+	invert(k_array,k_list,K);
+
+	FILE* fp = safe_open_file("task_2.csv", "w");
+	fprintf(fp, "timestamp,latitide,longitude,magnitude,score\n");
+	for (int i = (K-1); i >= 0; i--) {
+		score_print(fp, k_array[i]);
+	}
+	fclose(fp);
+
+	free(k_array);
+	slist_free(map, resolution);
+	list_free(k_list);
+}
+
+
+void task_3_magnitude_statistics(const char* eq_csv_file)
+{
+	FILE *input_file = NULL;
+	eq_t *temp = NULL;
+	eq_t *eq_array;
+	list_t *stat_list = NULL;
+	int data_read = 0;
+	int mem_realloc_count = 1;
+
+	if (eq_csv_file == NULL) {
+		debug("Empty file");
+		exit(EXIT_FAILURE);
+	}
+	else {
+		stat_list = list_new(list_delete);
+		eq_array = (eq_t*)safe_malloc(MAXINPUT * sizeof(eq_t));
+		input_file = safe_open_file(eq_csv_file, "r");
+
+		if (input_file != NULL) {
+			while (1) {
+				temp = read_quake(input_file);
+				if (temp != NULL) {
+					if (temp->timestamp->year >= MINYEART3 && temp->timestamp->year <= MAXYEART3) {
+						eq_array[data_read] = *temp;
+						data_read += 1;
+					}
+				}
+				else {
+					break;
+				}
+
+				if (data_read == mem_realloc_count*MAXINPUT) {
+					mem_realloc_count++;
+					eq_array = safe_realloc(eq_array, mem_realloc_count*MAXINPUT * sizeof(eq_t));
+				}
+			}
+			qsort(&eq_array[0], data_read, sizeof(eq_t), compare);
+
+			for (int i = 0; i < data_read; i++) {
+				filter_quake(stat_list,&eq_array[i]);
+			}
+
+			node_t* temp_stat = stat_list->head;
+			FILE* fp = safe_open_file("task_3.csv", "w");
+			fprintf(fp, "year,magnitude,count,percentage\n");
+			while (temp_stat != NULL) {
+				stat_printf(fp, temp_stat->data);
+				temp_stat = temp_stat->next;
+			}
+			fclose(fp);
+
+			eq_free(temp);
+			list_free(stat_list);
+			eq_free(eq_array);
+		}
+	}
+}
+
+============================================
+src/skiplist.h
+11:45:13_Friday_19_August_2016
+============================================
+#ifndef SKIPLIST_H
+#define SKIPLIST_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+#include "linkedlist.h"
+
+#define MAX_LEVEL 20
+#define P 0.5
+
+
+
+struct snode{
+	void *data;
+	struct snode **next;
+};
+
+typedef struct snode snode_t;
+
+typedef struct {
+	snode_t* header;
+	int level;
+	int num_of_elements;
+	long double score;
+}head_t;
+
+float randf();
+int random_level();
+void seed_rand();
+head_t* new_head();
+snode_t* new_snode(int level, void *d);
+void insert(head_t *head, void *d);
+void printList(head_t *head);
+void compute_scores(head_t ***map, list_t *list, int resolution, int K);
+void slist_free(head_t*** map, int resolution);
+void array_insert(list_t *list, head_t *item, int K);
+void invert(head_t **k_array, list_t* list, int K);
+void score_print(FILE *fp, head_t *k_input);
+
+#endif============================================
+src/eq_util.h
+11:45:13_Friday_19_August_2016
+============================================
+/***************************************************************************
+ *
+ *   File        : eq_util.c
+ *   Student Id  : <INSERT STUDENT ID HERE>
+ *   Name        : <INSERT STUDENT NAME HERE>
+ *
+ ***************************************************************************/
+#ifndef EQ_UTIL_H
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <math.h>
+#include <time.h>
+#include <limits.h>
+
+#define MAXLEVELOFMAG 10
+
+/* structure which defines a timestamp */
+typedef struct {
+    int year;
+    int month;
+    int day;
+    int hour;
+    int min;
+    int sec;
+    int msec;
+} timestamp_t;
+
+/* the main structure holding the data for one earthquake */
+typedef struct {
+    timestamp_t* timestamp;
+    float latitude;
+    float longitude;
+    float magnitude;
+    float x;
+    float y;
+} eq_t;
+
+/*structure to store statistics for yearly earthquake*/
+typedef struct {
+	int year;
+	int *magnitude;
+	float percentage;
+	int total_eq_this_year;
+} stat_t;
+
+/* helper function which maps (lat,long) to (x,y) */
+void map_coordinates(eq_t* eq);
+/* helper function which parses the timestamp in the input data */
+timestamp_t* parse_time(char* buf);
+/* helper function which reads data for one earthquake */
+eq_t* read_quake(FILE* fp);
+/* given two timestamps compute the difference in seconds */
+double time_difference(timestamp_t* a, timestamp_t* b);
+
+/* helper functions which wrap around standard functions and perform error handling */
+void* safe_malloc(size_t bytes);
+void* safe_realloc(void* ptr, size_t bytes);
+FILE* safe_open_file(const char* file_name, const char* mode);
+
+/* helper function which print/free one eq_t object */
+void eq_print(FILE* fp, eq_t* q);
+void eq_free(void* q);
+
+/*Printi message for debugging purpose*/
+void debug(char *message);
+
+void print_timestamp(timestamp_t *timestp);
+int compare(const void *a, const void *b);
+void scale_coordinates(eq_t *earthquake, int resolution);
+
+eq_t *empty_eq();
+stat_t *new_stat_node(int year);
+void insert_magnitude(stat_t *stat_node, int mag);
+
+void stat_printf(FILE *fp, stat_t *s_eq);
+void consecutive_eq(eq_t *eq, int num_data, int *index);
+
+#endif
+============================================
+src/linkedlist.h
+11:45:13_Friday_19_August_2016
+============================================
+#ifndef LINKEDLIST_H
+#define LINKEDLIST_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+
+/* node type */
+typedef struct node node_t;
+
+struct node {
+    void* data;
+    node_t* next;
+};
+
+/* linked list type */
+typedef struct {
+    int num_elements;
+    node_t* head;
+    node_t* tail;
+    void (*del)(void*);
+} list_t;
+
+void list_process_all(node_t* p, void (*process)(void*));
+void* list_pop_front(list_t* list);
+void list_push_front(list_t* list, void* d);
+void list_push_back(list_t* list, void* d);
+list_t* list_new(void (*delfunc)(void*));
+void list_free(list_t* list);
+void list_insert_in_order(list_t* list, void* d, int cmp(const void*, const void*));
+void list_delete(void * item);
+int magnitude_cmp(const void *eq_1, const void *eq_2);
+int score_cmp(const void *score1, const void *score2);
+node_t* new_node(void *d);
+void print_list(void *d);
+void filter_quake(list_t *list, void *eq);
+void traverse_list_n_match(list_t *list, void *eq);
+
+#endif============================================
+src/tasks.h
+11:45:13_Friday_19_August_2016
+============================================
+/***************************************************************************
+ *
+ *   File        : tasks.h
+ *   Student Id  : <INSERT STUDENT ID HERE>
+ *   Name        : <INSERT STUDENT NAME HERE>
+ *
+ ***************************************************************************/
+
+#ifndef TASKS_H
+
+void task_1_find_longest_break_after_2k(const char* eq_csv_file);
+
+void task_2_compute_cell_scores(const char* eq_csv_file, int resolution, int K);
+
+void task_3_magnitude_statistics(const char* eq_csv_file);
+
+#endif

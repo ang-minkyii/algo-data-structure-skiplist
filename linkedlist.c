@@ -1,0 +1,222 @@
+#include <assert.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+#include "linkedlist.h"
+#include "eq_util.h"
+#include "skiplist.h"
+
+/* process all elements in the list */
+void list_process_all(node_t* p, void (*process)(void*))
+{
+    while (p) {
+        process(p->data);
+        p = p->next;
+    }
+}
+
+void print_list(void *d) {
+	float scr = ((head_t *)d)->score;
+	printf("Score is %.2f\n",scr);
+}
+
+/* remove node at the front of the list */
+void* list_pop_front(list_t* list)
+{
+    assert(list != NULL);
+    assert(list->num_elements > 0);
+    node_t* old;
+    assert(list->head != NULL);
+    old = list->head;
+    list->head = list->head->next;
+    void* d = old->data;
+    free(old);
+    list->num_elements--;
+    if (list->num_elements == 0) {
+        list->head = NULL;
+        list->tail = NULL;
+    }
+    return d;
+}
+
+/* add node add the front of the list */
+void list_push_front(list_t* list, void* d)
+{
+    assert(list != NULL);
+    node_t* new = (node_t*)safe_malloc(sizeof(node_t));
+    assert(new);
+    new->data = d;
+    new->next = list->head;
+    list->head = new;
+    if (list->tail == NULL)
+        list->tail = new;
+    list->num_elements++;
+}
+
+/* add node add the back of the list */
+void list_push_back(list_t* list, void* d)
+{
+    assert(list != NULL);
+    node_t* new = (node_t*)safe_malloc(sizeof(node_t));
+    assert(new != NULL);
+    new->data = d;
+    new->next = NULL;
+	if (list->tail)
+		list->tail->next = new;
+    list->tail = new;
+    if (list->head == NULL)
+        list->head = new;
+    list->num_elements++;
+}
+
+void list_insert_after(list_t* list, node_t* n, void* d)
+{
+    assert(list != NULL);
+    if (n == list->tail) {
+        list_push_back(list, d);
+    }
+    else {
+        node_t* new = (node_t*)safe_malloc(sizeof(node_t));
+        assert(new != NULL);
+        new->data = d;
+        new->next = n->next;
+        n->next = new;
+        list->num_elements++;
+    }
+}
+
+void list_insert_in_order(list_t* list, void* d, int cmp(const void*, const void*))
+{
+	node_t *temp = list->head;
+	node_t *next_temp = temp->next;
+	head_t *eq_data = d;
+	//change this for eq_t*
+
+	if (next_temp == NULL) {
+		if (cmp(eq_data, temp->data)) {
+			list_push_front(list,eq_data);
+		}else{
+			list_push_back(list, eq_data);
+		}
+	}
+	else {
+		while (temp->next != NULL) {
+			//Always test the head in the list first
+			if (cmp(eq_data, list->head->data) == 1) {
+				list_push_front(list, eq_data);
+				break;
+			}
+			if (cmp(eq_data, temp->next->data)==1) {
+				list_insert_after(list, temp, d);
+				break;
+			}else if(cmp(eq_data,temp->next->data)==0){
+				list_insert_after(list, temp->next, d);
+				break;
+			}
+			temp = temp->next;
+		}
+		if (temp->next == NULL) {
+			list_push_back(list, d);
+		}
+	}
+}
+
+int magnitude_cmp(const void *eq_1, const void *eq_2) {
+	float mag1 = ((eq_t*)eq_1)->magnitude;
+	float mag2 = ((eq_t*)eq_2)->magnitude;
+	if (mag1 > mag2) {
+		return 1;
+	}else if(mag1 < mag2){
+		return -1;
+	}
+	else {
+		return 0;
+	}
+}
+
+int score_cmp(const void *score1, const void *score2) {
+	float sc1 = ((head_t*)score1)->score;
+	float sc2 = ((head_t*)score2)->score;
+	if (sc1 < sc2) {
+		return 1;
+	}
+	else if (sc1 > sc2) {
+		return -1;
+	}
+	else {
+		return 0;
+	}
+}
+
+/* create a new linked list structure */
+list_t* list_new(void (*delfunc)(void*))
+{
+    list_t* list;
+    list = (list_t*)safe_malloc(sizeof(list_t));
+    assert(list != NULL);
+    list->head = NULL;
+    list->tail = NULL;
+    list->num_elements = 0;
+    list->del = delfunc;
+    return list;
+}
+
+/* free all memory associated with a list */
+void list_free(list_t* list)
+{
+    assert(list != NULL);
+    while (list->num_elements) {
+        void* elem = list_pop_front(list);
+        list->del(elem);
+    }
+    free(list);
+}
+
+node_t* new_node(void *d) {
+	node_t *new = (node_t*)safe_malloc(sizeof(node_t));
+	assert(new != NULL);
+	new->data = d;
+	new->next = NULL;
+	return new;
+}
+
+void list_delete(void *item) {
+	free(item);
+	item = NULL;
+	if (item != NULL) {
+		exit(EXIT_FAILURE);
+	}
+}
+
+void filter_quake(list_t *list, void *eq) {
+	int year_eq = ((eq_t*)eq)->timestamp->year;
+	int mag_eq = ((int)((((eq_t*)(eq))->magnitude) + 0.5));
+
+	if (list->num_elements == 0) {
+		stat_t *new_stat = new_stat_node(year_eq);
+		insert_magnitude(new_stat, mag_eq);
+		list_push_front(list,new_stat);
+	}else{
+		traverse_list_n_match(list, eq);
+	}
+}
+
+void traverse_list_n_match(list_t *list, void *eq) {
+	node_t *temp = list->head;
+	float temp_mag = 0.0;
+	
+	while (temp != NULL && ((eq_t*)eq)->timestamp->year != ((stat_t*)(temp->data))->year) {
+		temp = temp->next;
+	}
+	temp_mag = ((eq_t*)eq)->magnitude;
+
+
+	if (temp != NULL) {
+		insert_magnitude(temp->data,temp_mag);
+	}
+	else {
+		stat_t *st_node = new_stat_node(((eq_t*)eq)->timestamp->year);
+		insert_magnitude(st_node,temp_mag);
+		list_push_back(list, st_node);
+	}
+}

@@ -1,0 +1,49 @@
+/***************************************************************************
+ *
+ *   File        : main.c
+ *   Student Id  : 565604
+ *   Name        : Mink Yii Ang
+ *
+ ***************************************************************************/
+
+#include "linkedlist.h"
+#include "tasks.h"
+#include "eq_util.h"
+
+#include <time.h>
+#include <math.h>
+#include <string.h>
+
+
+int main(int argc, char** argv)
+{
+
+	/* TODO: parse command line arguments */
+	char* eq_csv_file = NULL;
+	int resolution = 0;
+	int K = 0;
+
+	if (argc != 4) {
+		debug("More inputs required.");
+		exit(EXIT_FAILURE);
+	}else{
+		eq_csv_file = (char *)malloc(256*sizeof(char));
+		strcpy(eq_csv_file,argv[1]);
+		resolution = atoi(argv[2]);
+		K = atoi(argv[3]);
+		if (K > resolution) {
+			K = resolution;
+		}
+	}
+
+    /* TODO: timing for Task 1 */
+    task_1_find_longest_break_after_2k(eq_csv_file);
+	debug("Task 1 complete");
+    /* TODO: timing for Task 2 */
+    task_2_compute_cell_scores(eq_csv_file, resolution, K);
+	debug("Task 2 complete");
+    /* TODO: timing for Task 3 */
+    task_3_magnitude_statistics(eq_csv_file);
+	debug("Task 3 complete");
+    return (EXIT_SUCCESS);
+}
